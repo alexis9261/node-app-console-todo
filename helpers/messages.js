@@ -1,4 +1,4 @@
-require('colors');
+import colors from 'colors';
 
 const showMenu = () => {
 
@@ -48,7 +48,7 @@ const pausa = () => {
         })
 
     });
-    
+
 }
 
 module.exports = {
