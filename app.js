@@ -13,8 +13,6 @@ import { Tasks } from './models/tasks.js';
 console.clear();
 const main = async () => {
 
-    let opt = '';
-
     const tasks = new Tasks();
 
     const tasksDB = readDatabase();
@@ -65,7 +63,7 @@ const main = async () => {
 
         await pause();
 
-    } while (opt !== '0');
+    } while (option !== '0');
 
 }
 
